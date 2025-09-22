@@ -1,14 +1,14 @@
 <!--Unit 1 Project
 Requirements
 [ x ] Two Different Headlines
-[  ] Bold and Italic Text
+[ x ] Bold and Italic Text
 [ x ] One List
-[  ] Three Images
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include at least three emojis
 [ no ] Feature 2 - Include a background image
-[ no ] Feature 3 - Add color with style=
+[ yes ] Feature 3 - Add color with style=
 [ no ] Feature 4 - Include a description list
 [ no ] Feature 5 - Include <font> tag
 -->
@@ -17,8 +17,18 @@ Select ONE Additional Feature to Add
 <!DOCTYPE HTML>
 <html>
     <head>
+        <style>
+            body {background-color:#d6edff}
+        </style>
         <meta charset="utf-8">
         <title>Unit 1 Project</title>
+        <style> 
+        .centered-list { 
+            list-style-position: inside;
+            text-align: center;
+            padding: 0;
+        } 
+    </style>
     </head>
     <body>
 <h2><p align="center">RISING SUN TEAM 1 (Boys II Planet)</p></h2>
@@ -27,19 +37,32 @@ Select ONE Additional Feature to Add
     Rising Sun Team #1 won against Rising Sun Team #2.</p>
   <p align="center">✦ . 　⁺ 　 . ✦ . 　⁺ 　 . ✦</p>      
 <h3><p align="center">TEAM MEMBERS & THEIR SCORES:</h3></p>
-<ul>
-    <li style="color:crimson"> <strong>Sun Hengyu:</strong> 105 points, <strong>won</strong> against Yu Sen</li>
-    <li style="color:crimson"> <strong>Dang Hong Hai:</strong> 141 points, <strong>won</strong> against Bian Shiyu</li>
-    <li style="color:steelblue"> <strong>Han Harry-June:</strong> 84 points, <strong>lost</strong> against Kim Dongyun</li>
-    <li style="color:steelblue"> Masato </li>
-    <li style="color:steelblue"> Kim Jun-il </li>
-    <li style="color:steelblue"> Andrew Han</li>
-    <li style="color: steelblue;"> Lee Dongheon</li>
-    <li style="color:steelblue">Muhn Won Jun</li>
-    <h5>Blue = Planet K; Red = Planet C</h5>
-</ul>
 
-    <img src="https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fepisode%2F11187762%2Fscreencap%2F6899cb15bf012.jpg" align="right" width="450"style=" transform: translate(-40px, -200px)" position: fixed> 
+<ul class="centered-list">
+    <li style="color:crimson"> <strong>Sun Hengyu (MAIN VOCAL):</strong> 105 points, <strong>won</strong> against Yu Sen</li>
+    <li style="color:crimson"> <strong>Dang Hong Hai (SUB VOCAL 3):</strong> 141 points, <strong>won</strong> against Bian Shiyu</li>
+    <li style="color:steelblue"> <strong>Han Harry-June (SUB RAPPER 1):</strong> 84 points, <strong>lost</strong> against Kim Dongyun</li>
+    <li style="color:steelblue"> <strong>Masato (SUB RAPPER 2):</strong> 146 points, <strong>won</strong> against Taiga</li>
+    <li style="color:steelblue"> <strong>Kim Jun-il (SUB RAPPER 3; KILLING PART):</strong> 142 points, <strong>won</strong> against Jang Taeyoon </li>
+    <li style="color:steelblue"> <strong>Andrew Han (SUB VOCAL 1):</strong> 115 points, <strong>won</strong> against Jiang Fan</li>
+    <li style="color: steelblue;"><strong>Lee Dongheon (MAIN RAPPER):</strong> 124 points, <strong>won</strong> against Yeom Yechan</li>
+    <li style="color:steelblue"><strong>Muhn Won Jun (SUB VOCAL 2):</strong> 117 points, <strong>won</strong> against Aoshi</li>
+    <h5>Blue = Planet K; Red = Planet C<br>
+        Killing Part = The most significant part of the performance. Typically holds the most memorable portions of the performance and is center for most of it.<br>
+    Picture of the team below!</h5>
+</ul>
+<img src="https://i.pinimg.com/736x/fd/13/55/fd13557f8195d56b749328b6a9654fcb.jpg" width="500px" style="transform: translate(200px, 0px)">
+<img src="https://i.pinimg.com/736x/7b/af/8d/7baf8de76d33f4019f951ade6399ca34.jpg" width="500px" align="right" style="transform: translate(-200px, 0px)">
     
+<br>
+<h3><p align="center">✦ . 　⁺ 　 . ✦ . 　⁺ 　 . ✦</p></h3>
+    <h2><p align="center">THE PERFORMANCE</p></h2>
+   <center><iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/uZ3h-9ue7bc?si=r5vqCkzBfm0cFHIt" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe></center>
+
 </body>
 </html>
